@@ -1,5 +1,4 @@
 import React from 'react'
-import './Card.css'
 
 function Card({
   category,
@@ -8,6 +7,7 @@ function Card({
   author,
   publicationDate,
   readTime,
+  image,
 }) {
   return (
     <div className='Card'>
@@ -20,7 +20,7 @@ function Card({
       </div>
       <div className='Card-image'>
         <figure>
-          <img alt='card-p'src={'https://picsum.photos/200/300'} />
+          <img alt='card-p' src={'http://piscum.photos/200/300'} />
         </figure>
       </div>
     </div>
