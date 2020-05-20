@@ -9,7 +9,7 @@ import Counter from "./components/Counter";
 import Button from "./components/Button";
 // import Notes from './components/Notes'
 import Form from "./components/Form";
-
+import CurrencyExchange from './components/ConditionalRendering/'
 import ConditionalRendering from "./components/ConditionalRendering";
 
 const data = [
