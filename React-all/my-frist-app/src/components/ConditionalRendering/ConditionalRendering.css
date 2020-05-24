@@ -1,0 +1,39 @@
+.Menu {
+ min-height: 100vh;
+ width: 350px;
+ background-color: #282c34;
+ color: white;
+ position: fixed;
+ top: o;
+ left: -350;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 19),
+  0 6px 6px rgba(0, 0, 0, 23);
+  transition: .5 case all;
+}
+
+.Menu-button {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: #61646d;
+    color: white;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    border: none;
+    cursor: pointer;
+    font-size: medium;
+}
+.Menu-button:hover {
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 19),
+    0 6px 6px rgba(0, 0, 0, 23);
+}
+
+.Menu-button:focus {
+    outline: none;
+}
+
+.activeMenu {
+ top: o;
+ left: 0;
+}

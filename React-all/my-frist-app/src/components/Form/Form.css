@@ -1,0 +1,8 @@
+.form-container {
+    padding: 10px;
+    background-color: #282c43;
+    color: white;
+    width: 100vw;
+    height: 100vw;
+    box-sizing: border-box;
+}

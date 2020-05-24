@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -36,4 +36,42 @@
   to {
     transform: rotate(360deg);
   }
+} */
+
+
+ul {
+  margin: 0;
 }
+
+​ a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+​ .App {
+  text-align: center;
+  background-color: #282c34;
+  color: white;
+  width: 100vw;
+  min-height: 100vh;
+}
+
+​ .Container {
+  width: 100vw;
+  padding: 20px 10px;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+​ .Menu-item {
+  color: white;
+}
+
+​ .Menu-item-active {
+  color: yellow;
+  border-bottom: 0.4rem solid teal;
+  cursor: not-allowed;
+}
+

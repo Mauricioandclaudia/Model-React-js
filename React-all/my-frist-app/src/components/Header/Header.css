@@ -1,0 +1,8 @@
+header h1 {
+    color: rgb(120, 140, 148);
+    font-size: 45px;
+}
+
+header p {
+    font-size: italic;
+}

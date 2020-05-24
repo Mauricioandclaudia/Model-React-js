@@ -1,0 +1,11 @@
+.Card {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    max-width: 600px;
+    cursor: pointer;
+}
+
+.Card-content {
+    text-align: left;
+}
