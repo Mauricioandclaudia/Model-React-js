@@ -1,0 +1,709 @@
+@media only screen and (max-width: 600px) {
+
+    /*------------------------------------------------------------------------- index------------------------------------------------------------------------------------------- */
+    /* background-color: rgb(173, 230, 197); */
+    .start {
+        text-decoration: none;
+        color: white;
+    }
+
+    .icono-all {
+        width: 20px;
+        height: 20px;
+        margin-right: 5px;
+        text-align: center;
+    }
+
+    .views-1 {
+        display: block;
+        justify-content: space-between;
+        /* background-color: rgb(147, 212, 241); */
+        max-width: 95%;
+        margin: auto;
+        height: 200px;
+        margin-top: 10px;
+    }
+
+
+    .u-a-p {
+        border: 1px solid transparent;
+        text-align: center;
+        border-radius: 9px 9px 9px 9px;
+        height: 50px;
+        width: 90%;
+        margin-top: 70px;
+        border-radius: 10px;
+        box-shadow: 8px 8px 10px 0;
+    }
+
+    .u-a-p:hover {
+        border-color: rgb(255, 144, 0);
+        box-shadow: 0 1px 1px rgba(229, 103, 23, 0.075)inset,
+            0 0 8px rgba(0, 247, 255, 0.6);
+        outline: 0 none;
+    }
+
+
+    .all {
+        text-align: center;
+    }
+
+    .sub {
+        border-radius: 9px 9px 9px 9px;
+        text-align: center;
+        font-family: gotham-light;
+    }
+
+    .But {
+        width: 90%;
+        height: 50px;
+        border-radius: 9px 9px 9px 9px;
+        margin-top: 35px;
+        background-color: #e84c3d;
+        border: 1px solid transparent;
+        border-radius: 10px;
+        box-shadow: 8px 8px 10px 0;
+    }
+
+    .but a {
+        text-decoration: none;
+        color: white;
+    }
+
+    .but-1 {
+        text-align: center;
+        margin-top: 45px;
+    }
+
+    .p-f {
+        text-decoration: inherit;
+        box-shadow: 8px 8px 10px 0;
+        color: white;
+    }
+    .mensaje  a {
+        text-decoration: none;
+    }
+
+    /* --------------- Global --------------------*/
+    .hambur {
+        width: 30px;
+        height: 30px;
+
+    }
+     /* --------------- Global --------------------*/
+
+
+
+
+
+
+
+
+      /* --------------- h1 --------------------*/
+    .start {
+        color: #e84c3d;
+    }
+    /* --------------- h1 --------------------*/
+
+    /*------------------------------------------------------------------------- HOME------------------------------------------------------------------------------------------- */
+
+    
+    .But-2 {
+        width: 90%;
+        height: 50px;
+        border-radius: 9px 9px 9px 9px;
+        margin-top: 50px;
+        border: 1px solid transparent;
+        text-align: center;
+        /* margin: auto; */
+        border-radius: 10px;
+        box-shadow: 8px 8px 10px 0;
+    }
+
+
+
+    #icon-1 {
+        background-color: #fff;
+        background-image: url('/img/Herramienta.png');
+        background-position: left;
+        background-repeat: no-repeat;
+        background-size: 10%;
+        padding: .5em;
+    }
+
+    #icon-2 {
+        background-color: #fff;
+        background-image: url('/img/costo.png');
+        background-position: left;
+        background-repeat: no-repeat;
+        background-size: 10%;
+        padding: .5em;
+    }
+
+
+    #icon-3 {
+        background-color: #fff;
+        background-image: url('/img/usuario-1.png');
+        background-position: left;
+        background-repeat: no-repeat;
+        background-size: 10%;
+        padding: .5em;
+    }
+
+
+    #icon-4 {
+        background-color: #fff;
+        background-image: url('/img/Herramienta.png');
+        background-position: left;
+        background-repeat: no-repeat;
+        background-size: 10%;
+        padding: .5em;
+    }
+
+
+    #icon-8 {
+        background-color: #fff;
+        background-image: url('/img/Registro.png');
+        background-position: left;
+        background-repeat: no-repeat;
+        background-size: 10%;
+        padding: .5em;
+        width: 95%;
+    }
+
+
+
+    .views-2 {
+        text-align: center;
+        margin-top: 5px;
+        text
+    }
+
+    .But-2 a {
+        text-decoration: none;
+        color: black;
+    }
+
+
+    .Box {
+        width: 95%;
+    }
+
+
+
+
+    /*------------------------------------------------------------------------- Reparar------------------------------------------------------------------------------------------- */
+
+    .Box-1 {
+        /* padding-left: 20px; */
+        margin-top: 35px;
+    }
+
+
+    .But-3 {
+        margin-top: 100px;
+        width: 95%;
+        height: 200px;
+        text-align: center;
+        border-radius: 10px;
+        box-shadow: 8px 8px 10px 0;
+    }
+
+
+    /*-------------------------------------------------------------------------folio------------------------------------------------------------------------------------------- */
+
+    .mensaje {
+        width: 300px;
+        height: 100px;
+        text-align: center;
+        background-color: #e84c3d;
+        margin: auto;
+        margin-top: 200px;
+    }
+
+
+
+    /*-------------------------------------------------------------------------Cotizaciones------------------------------------------------------------------------------------------- */
+        * {
+            margin: 0;
+            padding: 0;
+            border: o none;
+            position: relative;
+        }
+
+        #menu_gral {
+            font-family: verdana, sans sherif;
+            margin: 1.5rem auto;
+        }
+
+        #menu_gral ul {
+            list-style-type: none;
+            text-align: center;
+            font-size: 0;
+        }
+
+        #menu_gral>ul li {
+            display: inline-block;
+            position: relative;
+            background: #FF7361;
+            width: 175px;
+        }
+
+        #menu_gral li a {
+            display: block;
+            text-decoration: none;
+            font-size: 2rem;
+            line-height: 2.5rem;
+            color: #444;
+            width: 136px;
+            height: 37px;
+        }
+
+        #menu_gral li:hover a,
+        #menu_gral li a:focus {
+            background: #8DA889;
+            color: #fff;
+            width: 136px;
+            height: 37px;
+        }
+
+        #menu_gral li ul {
+            position: absolute;
+            width: 0;
+            overflow: hidden;
+        }
+
+        #menu_gral li:hover ul,
+        #menu_gral li:focus ul {
+            width: 100%;
+            margin: 0 -4rem -4rem -4rem;
+            padding: 0 4rem 4rem 4rem;
+            z-index: 5;
+        }
+
+        #menu_gral li li {
+            display: block;
+            width: 100%;
+        }
+
+        #menu_gral li:hover li a,
+        #menu_gral li:focus li a {
+            font-family: monospace;
+            font-size: .9rem;
+            line-height: 1.7rem;
+            border-top: 1px solid #e5e5e5;
+            background: rgb(139, 138, 138);
+        }
+
+        #menu_gral li li a:hover,
+        #menu_gral li li a:focus {
+            background: #8AA9B8;
+        }
+
+  /*-------------------------------------------------------------------------Cotizaciones------------------------------------------------------------------------------------------- */
+    /* 
+.tu {
+
+        background-color: #fff;
+        background-image: url('https://i.imgur.com/XmrvrGt.png');
+        background-position: left;
+        background-repeat: no-repeat;
+        background-size: 10%;
+        border: 0;
+        border-radius: 5px;
+        box-sizing: border-box;
+        font-size: 1em;
+        padding: .5em;
+        padding-left: 2em;
+        width: 100%;
+   
+
+} */
+
+    .inicio-h {
+        margin-top: 5px;
+    }
+
+    .icon-01 {
+        background-image: url('/img/Candado.png');
+        background-position: left;
+        background-repeat: no-repeat;
+        background-size: 10%;
+        height: 50px;
+        width: 90%;
+        margin-top: 70px;
+        border-radius: 10px;
+        box-shadow: 8px 8px 10px 0;
+        text-align: center;
+        margin: 19px;
+    }
+
+
+    .icon-0 {
+        background-image: url('/img/usuario-1.png');
+        background-position: left;
+        background-repeat: no-repeat;
+        background-size: 10%;
+        height: 50px;
+        width: 90%;
+        margin-top: 70px;
+        border-radius: 10px;
+        box-shadow: 8px 8px 10px 0;
+        text-align: center;
+        margin: 19px;
+
+    }
+
+
+
+
+    /*-------------------------------------------------------------------------Administrador------------------------------------------------------------------------------------------- */
+
+    .icon-admon-1 {
+
+        background-image: url('/img/usuario-1.png');
+        background-position: left;
+        background-repeat: no-repeat;
+        background-size: 10%;
+        height: 50px;
+        width: 90%;
+        margin-top: 20px;
+        border-radius: 10px;
+        box-shadow: 8px 8px 10px 0;
+        text-align: center;
+        margin: 19px;
+
+    }
+
+
+    .icon-admon-2 {
+        background-image: url('/img/Candado.png');
+        background-position: left;
+        background-repeat: no-repeat;
+        background-size: 10%;
+        height: 50px;
+        width: 90%;
+        margin-top: 20px;
+        border-radius: 10px;
+        box-shadow: 8px 8px 10px 0;
+        text-align: center;
+        margin: 19px;
+
+    }
+
+
+
+    .icon-admon-3 {
+        background-image: url('/img/Correo.png');
+        background-position: left;
+        background-repeat: no-repeat;
+        background-size: 10%;
+        height: 50px;
+        width: 90%;
+        margin-top: 20px;
+        border-radius: 10px;
+        box-shadow: 8px 8px 10px 0;
+        text-align: center;
+        margin: 19px;
+    }
+
+
+    #icon-admon-3-p-a {
+        background-image: url('/img/usuario-1.png');
+        background-position: left;
+        background-repeat: no-repeat;
+        background-size: 10%;
+        height: 50px;
+        width: 90%;
+        margin-top: 20px;
+        border-radius: 10px;
+        box-shadow: 8px 8px 10px 0;
+        text-align: center;
+        margin: 19px;
+        background-color: white;
+    }
+
+
+    #icon-admon-3-p-b {
+        background-image: url('/img/Ubicacion.png');
+        background-position: left;
+        background-repeat: no-repeat;
+        background-size: 10%;
+        height: 50px;
+        width: 90%;
+        margin-top: 20px;
+        border-radius: 10px;
+        box-shadow: 8px 8px 10px 0;
+        text-align: center;
+        margin: 19px;
+    }
+
+    #icon-admon-3-p-c {
+        background-image: url('/img/costo.png');
+        background-position: left;
+        background-repeat: no-repeat;
+        background-size: 10%;
+        height: 50px;
+        width: 90%;
+        margin-top: 20px;
+        border-radius: 10px;
+        box-shadow: 8px 8px 10px 0;
+        text-align: center;
+        margin: 19px;
+    }
+
+    #icon-admon-3-p-d {
+        background-image: url('/img/tarjeta-de-credito.png');
+        background-position: left;
+        background-repeat: no-repeat;
+        background-size: 10%;
+        height: 50px;
+        width: 90%;
+        margin-top: 20px;
+        border-radius: 10px;
+        box-shadow: 8px 8px 10px 0;
+        text-align: center;
+        margin: 19px;
+    }
+
+
+    .but-a {
+        width: 90%;
+        height: 50px;
+        border-radius: 9px 9px 9px 9px;
+        margin-top: 70px;
+        background-color: white;
+        border: 1px solid transparent;
+        border-radius: 10px;
+        box-shadow: 8px 8px 10px 0;
+    }
+
+
+    .but-a a {
+        text-decoration: none;
+        color: black;
+    }
+
+
+
+
+    .titulo {
+        font-size: 3.5ex;
+        font-weight: bold;
+        margin-left: 10px;
+        margin-bottom: 10px;
+    }
+
+    #pestanas {
+        float: top;
+        font-size: 3ex;
+        font-weight: bold;
+    }
+
+    #pestanas ul {
+        margin-left: -40px;
+    }
+
+    #pestanas li {
+        list-style-type: none;
+        float: left;
+        text-align: center;
+        margin: 0px 2px -2px -0px;
+        background: darkgrey;
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
+        border: 2px solid bisque;
+        border-bottom: dimgray;
+        padding: 0px 20px 0px 20px;
+    }
+
+    #pestanas a:link {
+        text-decoration: none;
+        color: bisque;
+    }
+
+    #contenidopestanas {
+        clear: both;
+        background: dimgray;
+        padding: 20px 0px 20px 20px;
+        border-radius: 5px;
+        border-top-left-radius: 0px;
+        border: 2px solid bisque;
+        width: 1025px;
+    }
+
+    .expo {
+        border-radius: 20px;
+        box-shadow: 8px 8px 10px 0;
+    }
+
+
+/* ................................................................menu de hambur................................................. */
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.hamburger {
+    position: fixed;
+    background-color: transparent;
+    left: 12;
+    top: 40px;
+    height: 30px;
+    width: 30px;
+    padding: 20px 20px;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+    -webkit-transition: -webkit-transform 0.25s cubic-bezier(0.05, 1.04, 0.72, 0.98);
+    transition: transform 0.25s cubic-bezier(0.05, 1.04, 0.72, 0.98);
+    z-index: 1002;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none
+}
+
+.hamburger.is-active {
+    background-color: none;
+}
+
+._layer {
+    background: white;
+    margin-bottom: 4px;
+    border-radius: 2px;
+    width: 28px;
+    height: 4px;
+    opacity: 1;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+    -webkit-transition: all 0.25s cubic-bezier(0.05, 1.04, 0.72, 0.98);
+    transition: all 0.25s cubic-bezier(0.05, 1.04, 0.72, 0.98);
+}
+
+.hamburger:hover .-top {
+    -webkit-transform: translateY(-100%);
+    -ms-transform: translateY(-100%);
+    transform: translateY(-100%);
+}
+
+.hamburger:hover .-bottom {
+    -webkit-transform: translateY(100%);
+    -ms-transform: translateY(100%);
+    transform: translateY(100%);
+}
+
+.hamburger.is-active .-top {
+    -webkit-transform: translateY(200%) rotate(45deg) !important;
+    -ms-transform: translateY(200%) rotate(45deg) !important;
+    transform: translateY(200%) rotate(45deg) !important;
+}
+
+.hamburger.is-active .-mid {
+    opacity: 0;
+}
+
+.hamburger.is-active .-bottom {
+    -webkit-transform: translateY(-200%) rotate(135deg) !important;
+    -ms-transform: translateY(-200%) rotate(135deg) !important;
+    transform: translateY(-200%) rotate(135deg) !important;
+}
+
+.menuppal.is_active {
+    transform: translate3d(0px, 0px, 0px);
+}
+
+.menuppal {
+    /* background-color: rgba(255, 255, 255, 0.95); */
+  /* background-color: rgba(134, 200, 232, 0.95) */
+   background-color:rgba(89, 181, 192, 0.95);
+   
+    bottom: 0;
+    height: 100%;
+    left: 0;
+    overflow-y: scroll;
+    position: fixed;
+    top: 0;
+    transform: translate3d(0px, -100%, 0px);
+    transition: transform 0.35s cubic-bezier(0.05, 1.04, 0.72, 0.98) 0s;
+    width: 100%;
+    z-index: 1001;
+}
+
+.menuppal ul {
+    margin: 0;
+    padding: 0;
+}
+
+.menuppal ul li {
+    list-style: none;
+    text-align: center;
+    font-family: Verdadna, Arial, Helvetica;
+    color: nav-color-text;
+    font-size: 1.5rem;
+    line-height: 3em;
+    height: 3em;
+    color: #369;
+    text-transform: none;
+    font-weight: bold;
+    padding-top: 135px;
+}
+
+.menuppal ul li a {
+    text-decoration: none;
+    color:white;
+    font-size: 25px;
+}
+
+.menuppal ul li a:hover {
+    text-decoration: none;
+    color: #333;
+}
+
+
+/* ................................................................menu de hambur................................................. */
+
+
+
+
+
+/** ................................................................................FLECHA............................................... **/
+
+.back {
+    text-align: left;
+    position: fixed;
+    display: flex;
+    padding-left: 18px;
+    padding-top: 33px;
+}
+
+
+.back-1 {
+    text-align: left;
+    position: fixed;
+    display: flex;
+    padding-left: 18px;
+    padding-top: 283px;
+}
+
+.back-2 {
+    text-align: left;
+    position: fixed;
+    display: flex;
+    padding-left: 18px;
+    padding-top: 240px;
+}
+
+.back-3 {
+    text-align: left;
+    position: fixed;
+    display: flex;
+    padding-left: 18px;
+    padding-top: 200px;
+}
+
+
+/** ................................................................................FLECHA............................................... **/
+
+}

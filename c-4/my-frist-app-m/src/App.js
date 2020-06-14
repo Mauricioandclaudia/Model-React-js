@@ -5,7 +5,7 @@ import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 import Home from "./pages/Home";
 import Notes from "./pages/Notes";
 import Menu from "./pages/Home/Menu";
-
+import Hooks from "./pages/ReactHooks";
 // CSS
 //import "./App.css";
 export default class App extends Component {
@@ -41,6 +41,7 @@ constructor(props) {
             <Route exact path="/notes">
             <CurrencyCoverter />
               <Notes />
+            <Hooks />
             </Route>
           </Switch>
         </div>

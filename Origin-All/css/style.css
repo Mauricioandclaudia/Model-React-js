@@ -1,0 +1,191 @@
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+    /** 1rem = 10px**/
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.6rem;
+    line-height: 2;
+    background-color: #2d3e52;
+}
+
+/** GLOBALES **/
+
+.body-1 {
+ background-color: #2d3e52;
+}
+
+.contenedor {
+    max-width: 120rem;
+    margin: 0 auto;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    font-family: 'PT Sans', sans-serif;
+}
+
+h1 {
+    font-size: 4.8rem;
+}
+
+h2 {
+    font-size: 4trm;
+}
+
+h3 {
+    font-size: 3.2rem;
+}
+
+h4 {
+    font-size: 2.8rem;
+}
+
+img {
+    max-width: 100%;
+}
+
+
+/** UTILIDADES **/
+
+
+
+
+.header-site {
+    /* display: flex;
+    justify-content: space-between; */
+    text-align: center;
+}
+
+.nav a {
+    text-decoration: none;
+    font-size: 2rem;
+    padding: 0 10 0 0;
+}
+
+
+.start {
+    color: #e84c3d;
+}
+
+/**------------------------------------------------------------------------- Nuevo ---------------------------------------------------------------------**/
+
+
+/** ................................................................................FLECHA............................................... **/
+
+.back {
+    text-align: left;
+    position: fixed;
+    display: flex;
+    padding-left: 18px;
+    padding-top: 33px;
+}
+
+
+.back-1 {
+       text-align: left;
+       position: fixed;
+       display: flex;
+       padding-left: 18px;
+       padding-top: 283px;
+}
+
+.back-2 {
+    text-align: left;
+    position: fixed;
+    display: flex;
+    padding-left: 18px;
+    padding-top: 240px;
+}
+
+.back-3 {
+    text-align: left;
+    position: fixed;
+    display: flex;
+    padding-left: 18px;
+    padding-top: 200px;
+}
+
+
+/** ................................................................................FLECHA............................................... **/
+.inicio-h {
+    text-align: center;
+    padding-top: 20px;
+  /* border-radius: 10px;
+  box-shadow: 8px 8px 10px 0; */
+    
+}
+
+.but-1 {
+    text-align: center;
+}
+
+.but {
+    text-decoration: none;
+    background-color: #e84c3d;
+    border-radius: 10px;
+    margin-top: 30px;
+}
+
+.but a {
+    text-decoration: none;
+    color: white;
+}
+
+/**------------------------------------------------------------------------- home ---------------------------------------------------------------------**/
+
+
+.views-2 {
+    text-align: center;
+   padding-top: 15px;
+}
+
+.but-2  {
+    text-decoration: none;
+    color: black;
+    width: 215px;
+    border-radius: 9px 9px 9px 9px;
+    border: 1px solid transparent;
+
+}
+
+.but-2 a {
+    text-decoration: none;
+    color: black;
+     
+}
+
+/**------------------------------------------------------------------------- reparar ---------------------------------------------------------------------**/
+
+.box-1 {
+    text-align: center;
+    
+}
+
+.but-3 {
+     border-radius: 9px 9px 9px 9px;
+     border: 1px solid transparent;
+     width: 250px;
+     height: 150px;
+}
+
+/**------------------------------------------------------------------------- folio ---------------------------------------------------------------------**/
+
+.p-f {
+    /* text-decoration: none;
+    text-align: center;
+    width: 150px;
+    height: 150px;
+    background-color: #e84c3d; */
+
+}
